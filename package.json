@@ -1,0 +1,25 @@
+{
+  "name": "(conversor-celsuis-fahrenheit)",
+  "version": "0.0.1",
+  "description": "ULL ESIT Grado de Informática. 3º. PL. Lab \"Temperature Converter\"",
+  "main": "temperature.js",
+  "scripts": {
+    "test": "open tests/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0100713435/STW_P2.git"
+  },
+  "keywords": [
+    "regexp"
+  ],
+  "author": "Noel Padron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100713435/STW_P2/issues"
+  },
+  "homepage": "https://github.com/alu0100713435/STW_P2#readme",
+  "devDependencies": {
+    "chai": "^3.3.0"
+  }
+}
