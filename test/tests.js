@@ -19,11 +19,11 @@ suite('temperature', function() {
     test('Buenos dias = error', function() {
         original.value = "Buenos dias";
         calculate();
-        assert.match(converted.innerHTML, /ERROR/);
+        assert.equal(converted.innerHTML, 'ERROR! Prueba con algo como esto \'-4.2C\' ', /ERROR/);
     });
     test('45.3 = error', function() {
         original.value = "45.3";
         calculate();
-        assert.match(converted.innerHTML, /ERROR/);
+        assert.notEqual(converted.innerHTML, 113.5, "/ERROR/");
     });
 });
