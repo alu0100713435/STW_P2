@@ -16,4 +16,14 @@ suite('temperature', function() {
         calculate();
         assert.match(converted.innerHTML, /ERROR/);
     });
+    test('Buenos dias = error', function() {
+        original.value = "Buenos dias";
+        calculate();
+        assert.match(converted.innerHTML, /ERROR/);
+    });
+    test('45.3 = error', function() {
+        original.value = "45.3";
+        calculate();
+        assert.match(converted.innerHTML, /ERROR/);
+    });
 });
